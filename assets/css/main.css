@@ -1705,7 +1705,9 @@ input, select, textarea {
 		}
 
 /* Container */
-
+		#four {
+			text-align: center;
+		}
 	.container {
 		margin: 0 auto;
 		max-width: calc(100% - 4.5em);
@@ -1882,6 +1884,7 @@ input, select, textarea {
 	}
 
 	textarea {
+		resize: none;
 		padding: 0.75em 1em;
 	}
 
@@ -2843,6 +2846,7 @@ input, select, textarea {
 		color: #c0c0c0;
 		overflow: hidden;
 		padding: 4em 0 2em 0;
+		text-align: center;
 	}
 
 		#footer .copyright {
